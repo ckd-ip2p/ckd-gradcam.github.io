@@ -2,8 +2,12 @@
 <html>
   <head>
     <style>
+      div {
+   word-wrap: break-word;
+   width: 600px;
+}
       img{
-        width: 700px;}
+        width: 500px;}
     </style>
     <title>
       Bridging Counterfactual Fairness and Equalized Odds for Image Classifiers
@@ -11,10 +15,9 @@
   </head>
   <body>
     <h1>GradCAM results</h1>
-    <p>Verify via Grad-CAM that "hair length" in CelebA corresponds to one of the Gs.</p>
+    <div>Grad-CAM results of Scratch, CP, and CKD on CelebA.</div>
     <figure>
           <img src="gradcam.png">
-      <figcaption>Grad-CAM results of Scratch, CP, and CKD.</figcaption>
     </figure>
 
   </body>
